@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2566782B1DA82A940034B497 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2566782A1DA82A940034B497 /* AppDelegate.mm */; };
+		2566782E1DA82A940034B497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566782D1DA82A940034B497 /* main.m */; };
+		256678311DA82A940034B497 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256678301DA82A940034B497 /* GameView.m */; };
+		256678341DA82A940034B497 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256678331DA82A940034B497 /* GameViewController.mm */; };
+		256678361DA82A940034B497 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 256678351DA82A940034B497 /* art.scnassets */; };
+		256678381DA82A940034B497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256678371DA82A940034B497 /* Assets.xcassets */; };
+		2566783B1DA82A940034B497 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256678391DA82A940034B497 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		256678111DA81A300034B497 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		256678131DA81A300034B497 /* TinyBrain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinyBrain; sourceTree = BUILT_PRODUCTS_DIR; };
+		2566781E1DA81C2A0034B497 /* Neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neuron.h; sourceTree = "<group>"; };
+		256678211DA81C460034B497 /* SOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOM.h; sourceTree = "<group>"; };
+		256678271DA82A940034B497 /* TinyBrainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBrainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256678291DA82A940034B497 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2566782A1DA82A940034B497 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		2566782D1DA82A940034B497 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2566782F1DA82A940034B497 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		256678301DA82A940034B497 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		256678321DA82A940034B497 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		256678331DA82A940034B497 /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		256678351DA82A940034B497 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		256678371DA82A940034B497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2566783A1DA82A940034B497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2566783C1DA82A940034B497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256678101DA81A300034B497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256678241DA82A940034B497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2566780A1DA81A300034B497 = {
+			isa = PBXGroup;
+			children = (
+				256678151DA81A300034B497 /* TinyBrain */,
+				256678281DA82A940034B497 /* TinyBrainApp */,
+				256678141DA81A300034B497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256678141DA81A300034B497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256678131DA81A300034B497 /* TinyBrain */,
+				256678271DA82A940034B497 /* TinyBrainApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256678151DA81A300034B497 /* TinyBrain */ = {
+			isa = PBXGroup;
+			children = (
+				2566781E1DA81C2A0034B497 /* Neuron.h */,
+				256678211DA81C460034B497 /* SOM.h */,
+			);
+			path = TinyBrain;
+			sourceTree = "<group>";
+		};
+		256678281DA82A940034B497 /* TinyBrainApp */ = {
+			isa = PBXGroup;
+			children = (
+				256678291DA82A940034B497 /* AppDelegate.h */,
+				2566782A1DA82A940034B497 /* AppDelegate.mm */,
+				2566782F1DA82A940034B497 /* GameView.h */,
+				256678301DA82A940034B497 /* GameView.m */,
+				256678321DA82A940034B497 /* GameViewController.h */,
+				256678331DA82A940034B497 /* GameViewController.mm */,
+				256678351DA82A940034B497 /* art.scnassets */,
+				256678371DA82A940034B497 /* Assets.xcassets */,
+				256678391DA82A940034B497 /* MainMenu.xib */,
+				2566783C1DA82A940034B497 /* Info.plist */,
+				2566782C1DA82A940034B497 /* Supporting Files */,
+			);
+			path = TinyBrainApp;
+			sourceTree = "<group>";
+		};
+		2566782C1DA82A940034B497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2566782D1DA82A940034B497 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256678121DA81A300034B497 /* TinyBrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2566781A1DA81A300034B497 /* Build configuration list for PBXNativeTarget "TinyBrain" */;
+			buildPhases = (
+				2566780F1DA81A300034B497 /* Sources */,
+				256678101DA81A300034B497 /* Frameworks */,
+				256678111DA81A300034B497 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyBrain;
+			productName = TinyBrain;
+			productReference = 256678131DA81A300034B497 /* TinyBrain */;
+			productType = "com.apple.product-type.tool";
+		};
+		256678261DA82A940034B497 /* TinyBrainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2566783D1DA82A940034B497 /* Build configuration list for PBXNativeTarget "TinyBrainApp" */;
+			buildPhases = (
+				256678231DA82A940034B497 /* Sources */,
+				256678241DA82A940034B497 /* Frameworks */,
+				256678251DA82A940034B497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyBrainApp;
+			productName = TinyBrainApp;
+			productReference = 256678271DA82A940034B497 /* TinyBrainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2566780B1DA81A300034B497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tim Omernick";
+				TargetAttributes = {
+					256678121DA81A300034B497 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					256678261DA82A940034B497 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2566780E1DA81A300034B497 /* Build configuration list for PBXProject "TinyBrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2566780A1DA81A300034B497;
+			productRefGroup = 256678141DA81A300034B497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256678121DA81A300034B497 /* TinyBrain */,
+				256678261DA82A940034B497 /* TinyBrainApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256678251DA82A940034B497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256678381DA82A940034B497 /* Assets.xcassets in Resources */,
+				256678361DA82A940034B497 /* art.scnassets in Resources */,
+				2566783B1DA82A940034B497 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2566780F1DA81A300034B497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256678231DA82A940034B497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256678341DA82A940034B497 /* GameViewController.mm in Sources */,
+				256678311DA82A940034B497 /* GameView.m in Sources */,
+				2566782E1DA82A940034B497 /* main.m in Sources */,
+				2566782B1DA82A940034B497 /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		256678391DA82A940034B497 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2566783A1DA82A940034B497 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256678181DA81A300034B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		256678191DA81A300034B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2566781B1DA81A300034B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2566781C1DA81A300034B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2566783E1DA82A940034B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TinyBrainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timomernick.TinyBrainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2566783F1DA82A940034B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TinyBrainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timomernick.TinyBrainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2566780E1DA81A300034B497 /* Build configuration list for PBXProject "TinyBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256678181DA81A300034B497 /* Debug */,
+				256678191DA81A300034B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2566781A1DA81A300034B497 /* Build configuration list for PBXNativeTarget "TinyBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2566781B1DA81A300034B497 /* Debug */,
+				2566781C1DA81A300034B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2566783D1DA82A940034B497 /* Build configuration list for PBXNativeTarget "TinyBrainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2566783E1DA82A940034B497 /* Debug */,
+				2566783F1DA82A940034B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2566780B1DA81A300034B497 /* Project object */;
+}
