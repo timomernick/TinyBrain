@@ -167,8 +167,7 @@ public:
             
             for (const auto& neighborPair : neighborhood) {
                 uint32_t neuronIndex = neighborPair.first;
-                float distToBest = neighborPair.second;
-                float distToBestSq = distToBest * distToBest;
+                float distToBestSq = neighborPair.second;
                 
                 float influence = exp(-distToBestSq / (2.0f * neighborhoodRadiusSq)) * learningRate;
                 
